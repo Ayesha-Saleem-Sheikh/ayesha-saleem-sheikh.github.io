@@ -1,0 +1,7 @@
+[
+  { "username": "alice", "password": "password",  "loggedtimes": 5 },
+  { "username": "bob",   "password": "123",       "loggedtimes": 12 },
+  { "username": "carol", "password": "letmein",   "loggedtimes": 3 },
+  { "username": "dave",  "password": "hackme",    "loggedtimes": 8 },
+  { "username": "erin",  "password": "0101",      "loggedtimes": 1 }
+]

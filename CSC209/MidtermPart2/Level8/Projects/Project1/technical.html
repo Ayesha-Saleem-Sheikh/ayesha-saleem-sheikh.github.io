@@ -1,0 +1,82 @@
+<html>
+<head>
+<title>Technical</title>
+<link id="pagestyle" rel="stylesheet" href="css/stylesheet1.css"> 
+</head>
+
+<body>
+	<header>
+		<img src="image/logo.gif" alt="smith logo" width="500" height="142">
+		<h1> Course Schedelue </h1>
+		<br>
+		<p id="oldcontent"> Office Hours </p>
+		<button onclick= "myFunction()"> Show Office Hours</button>
+<script>
+function myFunction(){
+document.getElementById("oldcontent").innerHTML="Mon-Friday 10am to 4pm";
+			}
+	</script>
+	</header> 
+	
+	<aside>
+		<button type="button"
+		onclick="changeStyle()"> Dark Mode!</button>
+	</aside> 
+	
+	<nav>
+	<ul>
+		<li><a href="http://localhost:8888/webprogramming.github.io/CSC209/startPage.html"> Home</a>
+			<li><a
+				href="http://localhost:8888/webprogramming.github.io/CSC209/Homeworks/Hw2/Tutorial/tutorial.html"> Tutorial </a>
+				<li><a
+					href="http://localhost:8888/webprogramming.github.io/CSC209/Homeworks/Hw2/Creative/creative.html"> Creative </a>
+				
+	</nav>
+	<br>
+</br>
+	<section>
+		<table>
+		
+		  <tr>
+		    <th>Week</th>
+		    <th>Date</th>
+			<th>Links</th>
+			<th>Topic</th> 
+			<th>HW</th> 
+		  </tr>
+		  <tr>
+		    <td>1</td>
+		    <td>Tu 9/1</td>
+			<td><a href="https://www.smith.edu/academics/computer-science">Course Descrition</td>
+			<td> Syllabus Intrdocution</td>
+			<td> Due Friday <td>
+			
+		  </tr>
+		  <tr>
+		    <td>2</td>
+		    <td>Wed 9/3</td>
+			<td> <a href="https://www.w3schools.com/html/html_head.asp"> HTML Tutorial</td>
+			<td> Intro to HTML</td>
+			<td> Due Next Friday </td>
+		  </tr>
+		  
+		</table>
+			
+	</section>
+	
+	
+	
+	<script>
+		function changeStyle(){
+		let theme = document.getElementById('pagestyle');
+		if(pagestyle.getAttribute('href')== 'css/stylesheet1.css'){
+			pagestyle.setAttribute('href', 'css/stylesheet2.css');
+		} else {
+			pagestyle.setAttribute('href', 'css/stylesheet1.css')
+		}
+	}
+	</script>
+
+</body>
+
+</html>

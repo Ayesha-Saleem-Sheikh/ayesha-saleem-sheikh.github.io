@@ -1,0 +1,36 @@
+body{
+background-color:black;
+color:white;
+}
+header{
+text-align:center;
+}
+
+nav{
+	float:left;
+	width:25%;
+	height:300px;
+	background:"grey";
+	padding:20px;
+}
+
+aside{
+	float:right;
+	width:25%;
+	height:300px;
+	
+}
+
+
+section{
+	table,th,td{
+		border:1px solid red;
+		th{
+			background-color: yellow;
+			color:blue;
+
+	}
+		
+
+
+

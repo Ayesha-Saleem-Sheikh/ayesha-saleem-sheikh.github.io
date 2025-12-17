@@ -1,0 +1,102 @@
+<html>
+    <head>
+<title>Tutorial</title>
+<style>
+    body {
+        background-color: rgb(157, 111, 111);
+    }
+</style>
+    </head>
+    <body>
+        <h1>Tutorial</h1>
+
+<h3> Select Your Favorite Color and Change Background </h3>
+
+Pick your fav color : <input type="color" id="favColor">
+
+<button onclick="myFunction()">Try it</button>
+
+
+<script>
+function myFunction() {
+  var x = document.getElementById("favColor").value;
+  document.body.style.backgroundColor = x;
+}
+</script>
+
+
+<p style="text-align:center;"> Check the box and see the photo!</p>
+
+Checkbox : <input type="checkbox" id="myCheck">
+
+
+<button onclick="checked()" style="text-align:center;" id="checkButton">See the Photo!</button>
+<div id="hideElement" style="display:none;">
+    <img src="image/landscape.png" alt="Landscape" style="width:100px">
+</div>
+
+
+<script>
+function checked() {
+  var x = document.getElementById("myCheck");
+  if (x.checked == true) {
+    x.checked = false;
+    document.getElementById('hideElement').style.display='none';
+    document.getElementById('checkButton').innerHTML = "See the Photo!";
+    } else { 
+        x.checked = true;
+        document.getElementById('hideElement').style.display='block';
+        document.getElementById('checkButton').innerHTML = "Hide the Photo!";
+    }
+}
+</script>
+<br><br>
+
+
+<p style="text-align:center;" id="radioText"> Click the radio button and see the photo!</p>
+
+Radio Button: <input type="radio" id="myRadio">
+
+
+
+<button onclick="radio()">Try it</button>
+
+<div id="hideElement2" style="display:none;">
+    <img src="image/landscape.png" alt="Landscape" style="width:100px">
+</div>
+
+
+<script>
+function radio() {
+  var y = document.getElementById("myRadio");
+  if (y.checked == true) {
+    y.checked = false;
+    document.getElementById('hideElement2').style.display='none';
+    document.getElementById('radioText').innerHTML = "See the photo!";
+    } else { 
+        y.checked = true;
+        document.getElementById('hideElement2').style.display='block';
+        document.getElementById('radioText').innerHTML = "Hide the Photo!";
+    }
+}
+</script>
+
+<h2> Exercises  I did : </h2>
+<ul>
+    <li><a href="Exercise/inputButton.html">Input Button </a></li>
+    <li><a href="Exercise/checkbox.html">Checkbox </a></li>
+    <li><a href="Exercise/colorObject.html">Color Object </a></li>
+    <li><a href="Exercise/dateObject.html">Date Object</a></li>
+    <li><a href="Exercise/file.html">File Upload</a></li>
+    <li><a href="Exercise/password.html">Password</a></li>
+    <li><a href="Exercise/slider.html">Range Slider</a></li>
+    <li><a href="Exercise/text.html">Text Input</a></li>
+    <li><a href="Exercise/canvasDrawing.html">Canvas Drawing</a></li>
+    <li><a href="Exercise/canvasShapes.html">Canvas Shapes</a></li>
+    <li><a href="Exercise/clock.html">Clock</a></li>
+
+</ul>
+  
+</body>
+    
+</html>

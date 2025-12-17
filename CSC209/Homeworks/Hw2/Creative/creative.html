@@ -1,0 +1,66 @@
+<html>
+<head>
+<title>Creative</title>
+<link id="pagestyle" rel="stylesheet" href="stylesheets/stylesheet.css"> 
+</head>
+
+<body>
+	
+	<header>
+		<img src="image/f1.jpg" width="700" height ="200">
+	
+	
+	<p id="oldcontent"> Location: </p>
+	<button onclick= "myFunction()"> LOCATION</button>
+	<script>
+	function myFunction(){
+	document.getElementById("oldcontent").innerHTML="DUTCH GRAND PRIX";
+				}
+		</script>
+		</header>
+	<aside>
+		<button type="button"
+		onclick="changeStyle()"> Get the Winning Team Color!</button>
+	</aside>
+	
+	
+	<section>
+		<table>
+		
+		  <tr>
+		    <th>Position</th>
+		    <th>Driver</th>
+			<th>Time</th>
+			<th>Pts</th> 
+			<th>Hightlights</th>
+		  </tr>
+		  <tr>
+		    <td>1</td>
+		    <td>Oscar Piastri</td>
+			<td> 1:38:29</td>
+			<td> 25 </td>
+			<td> <a href="https://www.formula1.com/en/video/race-highlights-2025-dutch-grand-prix.1841986858440849937">RACE HIGHLIGHTS</a></td>
+		  </tr>
+		  <tr>
+		    <td>2</td>
+		    <td>Max Verstappen</td>
+			<td> +1.271s </td>
+			<td>18 </td>
+		  </tr>
+		  
+		</table>
+			
+	</section>
+	<script>
+		function changeStyle(){
+		let theme = document.getElementById('pagestyle');
+		if(pagestyle.getAttribute('href')== 'stylesheets/stylesheet.css'){
+			pagestyle.setAttribute('href', 'stylesheets/stylesheet2.css');
+		} else {
+			pagestyle.setAttribute('href', 'stylesheets/stylesheet.css')
+		}
+	}
+	</script>
+</body>
+
+</html>

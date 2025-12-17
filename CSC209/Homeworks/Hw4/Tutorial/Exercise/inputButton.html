@@ -1,0 +1,22 @@
+<html>
+<head>
+<title> input button </title>
+</head>
+<body>
+<h3 style= text-align:center;> Input button </h3>
+
+<p>Click the button to get text displayed on the button</p>
+
+<input type="button" id="mybtn" onclick="myFunction()" value ="Try It">
+
+<p id="demo"></p>
+
+<script>
+	function myFunction(){
+	    var x = document.getElementById("mybtn").value;
+	     document.getElementById("demo").innerHTML = x;
+	   }
+	   </script>
+
+</body>
+</html>

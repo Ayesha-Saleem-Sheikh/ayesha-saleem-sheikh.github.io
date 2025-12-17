@@ -1,0 +1,92 @@
+<html>
+<head>
+<title>Technical</title>
+<link id="pagestyle" rel="stylesheet" href="css/stylesheet1.css"> 
+
+</head>
+
+<body>
+	<header>
+		<img src="image/logo.gif" alt="smith logo" width="500" height="142">
+		<h1> Course Schedelue </h1>
+		<br>
+		<p id="oldcontent"> Office Hours </p>
+		<button onclick= "myFunction()"> Show Office Hours</button>
+		<p id="demo"> Today's Date is: </p>
+		
+		<button onclick = "dateButton()"> Show Date </button>
+		<br>
+		<br>
+	    <button type="button"
+		onclick="changeVis()" id="button"> Hide Table!</button>
+		
+	 <button onclick="credit()">Credit</button>
+	
+	</header> 
+	
+	<aside>
+		<button type="button"
+		onclick="changeStyle()"> Dark Mode!</button>
+		
+		<button type="button"
+		onclick="changeMenu()"> Change Menu</button>	
+	    
+	</aside> 
+	
+	<nav id = "nav">
+	<ul>
+		<li><a href="../../../startPage.html"> Home</a>
+			<li><a
+				href="../Tutorial/tutorial.html"> Tutorial </a>
+				<li><a
+					href="../Creative/creative.html"> Creative </a>
+				
+	</nav>
+	<br>
+
+	<section>
+			<br>
+			
+		<table id = "Table">
+		  <tr>
+		    <th>Week</th>
+		    <th>Date</th>
+			<th>Links</th>
+			<th>Topic</th> 
+			<th>HW</th> 
+			<th> Show/Hide </th>
+
+		  </tr>
+		  <tr id = "hiderow">
+		    <td>1</td>
+		    <td>Tu 9/1</td>
+			<td><a href="https://www.smith.edu/academics/computer-science">Course Descrition </a></td>
+			<td> Syllabus Intrdocution</td>
+			<td> Due Friday </td>
+			<td> <button type="button"
+		onclick="hiderow()" id="butn"> Hide Row</button>
+	 </td>
+			
+		  </tr>
+		  <tr id=hiderow2>
+		    <td>2</td>
+		    <td>Wed 9/3</td>
+			<td> <a href="https://www.w3schools.com/html/html_head.asp"> HTML Tutorial </a></td>
+			<td> Intro to HTML</td>
+			<td> Due Next Friday </td>
+	   		<td> <button type="button"
+	   		onclick="hiderow2()" id="butn2"> Hide Row</button>
+	   	 </td>
+		  </tr>
+		  
+		</table>
+			
+	</section>
+	
+	<script src="./JS/javascript.js" defer></script>
+
+		
+
+</body>
+
+</html>

@@ -1,0 +1,60 @@
+<html>
+<head>
+<title> Conditionals </title>
+</head>
+<body>
+	<h1 style = text-align:center;>Conditionals </h1>
+	
+	<h2> if Statement </h2>
+	
+	<p id="attemptIf"> </p>
+	
+	
+	<script>
+		let Open = false;
+		let text = "";
+		
+		if (Open){
+			text ="WELCOME";
+		}else{
+				text="Sorry we are closed!";
+			}
+		
+		document.getElementById("attemptIf").innerHTML = text;
+	</script>
+		
+		<h2> Ternary </h2>
+		
+		<p id="attemptTernary"> </p>
+		
+		<script>
+			let age = 18;
+			let canDrive = (age <  18)? "No, You Can't Drive":"Yes, you can drive" ;
+			
+			document.getElementById("attemptTernary").innerHTML = canDrive;
+		</script>
+			
+		<h2> Switch Control Flow </h2>
+		
+		<p id="attemptControlFlow"> </p>
+		
+		<script>
+			switch(new Date().getDay()){
+			case 0:
+				text = "Sorry we are closed on Sundays";
+				break;
+			case 7: 
+				text = "Sorry we are closed on Saturdays"
+				break;
+			default:
+				text ="We are open!"
+			}
+			document.getElementById("attemptControlFlow").innerHTML = text;
+		</script>
+			
+		
+		
+			
+			
+</body>
+</html>

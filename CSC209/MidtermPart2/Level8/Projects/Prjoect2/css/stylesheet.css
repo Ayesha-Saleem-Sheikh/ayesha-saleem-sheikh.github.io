@@ -1,0 +1,64 @@
+ #spaceBox {
+ width: 400px;
+ height: 400px;
+ position: relative;
+ background-image: url('../Image/space.png');
+}
+
+ .sticker {
+width: 50px;
+height: 50px;
+position: absolute;
+ }
+ .top-left {
+    top: 0px;
+    left:0px;
+}
+    .top-right {
+        top: 0px;
+        left: 350px;
+    }
+    .bottom-left {
+        top: 350px;
+        left: 0px;
+    }
+    .bottom-right {
+        top: 350px;
+        left: 350px;
+    }
+
+ 
+
+body {
+    background-image: url('../Image/space.jpg');
+    background-size: cover;
+    color: white;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding: 10px;
+
+    
+}
+
+aside {
+    float: bottom;
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+    color:azure;
+    background-color: #1d4470;
+}
+
+nav{
+    float:top;
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+    color:azure;
+    background-color: #1d4470;
+
+}

@@ -1,0 +1,27 @@
+<html>
+
+<head>
+<script>
+	const NRWEEKS=6;
+	const WEEKSTR= "<h1>Week NR </h1>";
+	const DATES = ["sep1" , "sep2", "sep3","sep4","sep5","sep6"]
+	const DATESTR= "<h2>DATEX </h2>"
+</script>
+</head>
+
+<body>
+
+ 
+<script>
+	var body="";
+	for (let i=1;i<NRWEEKS;i++){
+		body += WEEKSTR.replace("NR",i);
+		body += DATESTR.replace("DATEX" , DATES[i]);
+	}
+	
+	document.getElementsByTagName("body")[0].innerHTML +=body;
+	
+</script>
+
+</body>
+</html>

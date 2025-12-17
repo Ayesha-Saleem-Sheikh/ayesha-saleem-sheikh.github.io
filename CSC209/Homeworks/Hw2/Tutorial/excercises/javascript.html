@@ -1,0 +1,41 @@
+<html>
+<head>
+</head>
+<body>
+<h1> My first javascript program</h1>
+
+<button type="button"
+onclick ="document.getElementById('demo').innerHTML = Date()">
+Click me to display Date and Time.
+</button>
+
+<p id='demo'></p>
+
+<p> Changing the content of the element</p>
+<button type="button"
+onclick="myFunction()"> Click Me!
+</button>
+
+<p id="oldcontent"> This is my demonstaration.</p>
+
+<script>
+	function myFunction(){
+		document.getElementById("oldcontent").innerHTML ="Hello JavaScript!";
+	}
+</script>
+	
+<h1> Chaning the style </h1>
+
+<p id="stylechange">Changing the style </p>
+<button type="button"
+onclick="changestyle()"> Change the Style!
+</button>
+
+<script>
+	function changestyle(){
+		document.getElementById("stylechange").style.backgroundColor="yellow";
+	}
+</script>
+	
+</body>
+</html>

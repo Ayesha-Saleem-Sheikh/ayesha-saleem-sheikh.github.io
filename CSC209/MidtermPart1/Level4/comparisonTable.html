@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel = "stylesheet" href="css/comparisonTable.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+
+<h2>Comparison Table</h2>
+<p> Link tags are used to define a relatiosnhsip between your current document and an external source. In our document it is being used as a  link to our css file and is being used as our table layout. </p>
+
+
+<button id="addRow" onclick="addRow('fa-remove', 'fa-check')"> Add Row</button>
+
+
+
+<table id = "table">
+  <tr>
+    <th style="width:50%">Name</th>
+    <th>Part1</th>
+    <th>Part2</th>
+  </tr>
+  <tr>
+    <td>Sample text</td>
+    <td><i class="fa fa-remove"></i></td>
+    <td><i class="fa fa-check"></i></td>
+  </tr>
+</table>
+
+
+
+<script>
+let Row = `<tr> 
+    <td>Sample text</td> 
+    <td>CheckCross1</td> 
+    <td>CheckCross2</td>
+    </tr>`
+
+  // window.alert (Row);
+
+   let Row2 = `<tr> 
+    <td>Sample text</td> 
+    <td><i class="fa part1"></i></td> 
+    <td><i class="fa part2"></i></td>
+    </tr>`
+  //window.alert (Row2);
+
+
+
+function addRow(part1,part2){
+    let Row3 = Row2.replace("part1",part1).replace("part2",part2);
+    var table = document.getElementById("table");  
+    var newRow = table.insertRow(-1); 
+    newRow.innerHTML = Row3;
+
+  }
+  
+</script>
+
+
+</body>
+</html>

@@ -1,0 +1,230 @@
+[
+    {
+        "quiz_index": "house",
+        "Title": "Which Hogwarts House Do You Belong In?",
+        "Prompt": "Answer these questions honestly to discover your true house!",
+        "Questions": [
+            {
+                "text": "What quality do you value most",
+                "choices": [
+                    {
+                        "text": " Bravery and courage",
+                        "result": "a"
+                    },
+                    {
+                        "text": "Ambition and cunning",
+                        "result": "b"
+                    },
+                    {
+                        "text": "Loyalty and hard work",
+                        "result": "c"
+                    },
+                    {
+                        "text": "Intelligence and wit",
+                        "result": "d"
+                    }
+                ]
+            },
+            {
+                "text": "How would your friends describe you?",
+                "choices": [
+                    {
+                        "text": " Bold and daring",
+                        "result": "a"
+                    },
+                    {
+                        "text": "Determined and resourceful",
+                        "result": "b"
+                    },
+                    {
+                        "text": "Kind and dependable",
+                        "result": "c"
+                    },
+                    {
+                        "text": "Curious and creative",
+                        "result": "d"
+                    }
+                ]
+            },
+            {
+                "text": "What's your ideal weekend activity?",
+                "choices": [
+                    {
+                        "text": "An adventurous outdoor activity",
+                        "result": "a"
+                    },
+                    {
+                        "text": "Doing Work",
+                        "result": "b"
+                    },
+                    {
+                        "text": " Reading or learning something new",
+                        "result": "c"
+                    },
+                    {
+                        "text": "Spending quality time with friends and family",
+                        "result": "d"
+                    }
+                ]
+            }
+        ],
+        "Result": {
+            "a": "gryffindor",
+            "b": "slytherin",
+            "c": "Hufflepuff",
+            "d": "Ravenclaw"
+        }
+    },
+    {
+        "quiz_index": "patronus",
+        "Title": "What's Your Patronus??",
+        "Prompt": "Answer these questions honestly to discover your true patronus!",
+        "Questions": [
+            {
+                "text": "What's your favorite hogwarts class?",
+                "choices": [
+                    {
+                        "text": " Alchemy",
+                        "result": "a"
+                    },
+                    {
+                        "text": "Potions",
+                        "result": "b"
+                    },
+                    {
+                        "text": "Herbology",
+                        "result": "c"
+                    },
+                    {
+                        "text": "Astronomy",
+                        "result": "d"
+                    }
+                ]
+            },
+            {
+                "text": "Who is your favorite Professor?",
+                "choices": [
+                    {
+                        "text": "Minerva McGonagall",
+                        "result": "a"
+                    },
+                    {
+                        "text": "Severus Snape",
+                        "result": "b"
+                    },
+                    {
+                        "text": "Horace Slughorn",
+                        "result": "c"
+                    },
+                    {
+                        "text": "Remus Lupin",
+                        "result": "d"
+                    }
+                ]
+            },
+            {
+                "text": "What's your favorite Spell",
+                "choices": [
+                    {
+                        "text": "Expelliarmus",
+                        "result": "a"
+                    },
+                    {
+                        "text": "Crucio",
+                        "result": "b"
+                    },
+                    {
+                        "text": "Stupefy",
+                        "result": "c"
+                    },
+                    {
+                        "text": "Protego",
+                        "result": "d"
+                    }
+                ]
+            }
+        ],
+        "Result": {
+            "a": "deer",
+            "b": "snake",
+            "c": "chipmunk",
+            "d": "owl"
+        }
+    },
+    {
+        "quiz_index": "wand",
+        "Title": "Take the test! Discover your wand!",
+        "Prompt": "The Wand Chooses The Wizard\r\n Let's See Which Wand Would Pick You",
+        "Questions": [
+            {
+                "text": "Pick a magical creature to guide you!",
+                "choices": [
+                    {
+                        "text": "Unicorn",
+                        "result": "a"
+                    },
+                    {
+                        "text": "Fairy",
+                        "result": "b"
+                    },
+                    {
+                        "text": "Dragon",
+                        "result": "c"
+                    },
+                    {
+                        "text": "Niffler",
+                        "result": "d"
+                    }
+                ]
+            },
+            {
+                "text": "Choose a type of forest to explore!",
+                "choices": [
+                    {
+                        "text": "Peaceful, sunny, with singing birds",
+                        "result": "a"
+                    },
+                    {
+                        "text": "Wild and tangled, full of hidden paths",
+                        "result": "b"
+                    },
+                    {
+                        "text": "Foggy, ancient, full of whispers",
+                        "result": "c"
+                    },
+                    {
+                        "text": "Dark, mysterious, full of secrets",
+                        "result": "d"
+                    }
+                ]
+            },
+            {
+                "text": "What kind of magic speaks to you most?",
+                "choices": [
+                    {
+                        "text": "Potions",
+                        "result": "a"
+                    },
+                    {
+                        "text": "Spells",
+                        "result": "b"
+                    },
+                    {
+                        "text": "Defence",
+                        "result": "c"
+                    },
+                    {
+                        "text": "Transformation",
+                        "result": "d"
+                    }
+                ]
+            }
+        ],
+        "Result": {
+            "a": "Elder Wand\"",
+            "b": "Blackthorn Wand",
+            "c": "Viola Wand",
+            "d": "Dragonfier Wand"
+        }
+    }
+]

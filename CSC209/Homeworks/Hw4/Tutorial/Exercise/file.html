@@ -1,0 +1,35 @@
+<html>
+<head>
+<title> file & image </title>
+</head>
+<body>
+<h1 style=text-align:center> File and Image </h1>
+
+<h3> File </h3> 
+<button onclick="myFunction()">Try it</button>
+
+<script>
+function myFunction() {
+  var x = document.createElement("INPUT");
+  x.setAttribute("type", "file");
+  document.body.appendChild(x);
+}
+</script>
+
+<h3> Image </h3> 
+
+<button onlcik="imageFun()"> Image Object </button>
+
+<script>
+function imageFun() {
+  var y = document.createElement("INPUT");
+  y.setAttribute("type", "image");
+  document.body.appendChild(y);
+}
+</script>
+
+
+
+</body>
+
+</html>

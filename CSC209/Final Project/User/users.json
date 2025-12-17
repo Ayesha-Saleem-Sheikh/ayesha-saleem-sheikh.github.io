@@ -1,0 +1,22 @@
+[
+    {
+        "username": "admin",
+        "password": "123",
+        "position": "admin"
+    },
+    {
+        "username": "changedname",
+        "password": "user2",
+        "position": "user",
+        "wand": "Elder Wand\"",
+        "house": "Hufflepuff"
+    },
+    {
+        "username": "new",
+        "password": "hello",
+        "position": "user",
+        "house": "slytherin",
+        "patronus": "chipmunk",
+        "wand": "Viola Wand"
+    }
+]

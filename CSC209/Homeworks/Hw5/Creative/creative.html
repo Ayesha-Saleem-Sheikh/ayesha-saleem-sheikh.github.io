@@ -1,0 +1,51 @@
+<html>
+<head>
+<title>Creative</title>
+<link rel="stylesheet" href="css/stylesheet.css" />
+</head>
+
+<body>
+<h1 style="text-align: center;">  Creative  </h1>
+
+
+<nav>
+    <button id="btnDisk"> Create a single disk </button>
+   
+    <button id ="btnClean" > Clean Canvas</button>
+
+    <button id ="collective" > Generate Random </button>
+   
+    <button id = "StartAnimate" > Move</button>
+
+    <button id = "reset" > Reset</button>
+
+    <button id="freeze"> Freeze </button>
+
+    <label style ="margin-left: 8px;">
+    Number of Disks : <input type="number" id="myNumber" value="5"> 
+   
+    </label>
+    <br>
+    <label style ="margin-left: 8px;">
+    Trace : <input type="checkbox" id="trace">
+    </label>
+
+    <label for="Speed"> Temperature</label>
+        <select id="Speed">
+            <option value=20>Low</option>
+            <option value=10>Medium</option>
+            <option value=5>High</option>
+        </select>
+
+</nav>
+<br>
+<canvas id="myCanvas" width="500" height="500"style="border:1px solid black;"></canvas>
+
+
+
+<script src = js/functions.js></script> 
+<script src = js/global.js></script> 
+
+</body>
+
+</html>

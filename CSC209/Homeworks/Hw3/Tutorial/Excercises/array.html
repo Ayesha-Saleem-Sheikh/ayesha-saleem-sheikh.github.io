@@ -1,0 +1,33 @@
+<html>
+<head>
+</head>
+<body>
+    <h1> Array </h1>
+
+    <p id="demo"></p>
+
+    <p id="flatmap"></p>
+
+<script>
+const numbers = [1, 2, 3, 4, 5, 88];
+
+let txt = "";
+numbers.forEach(arrayloop);
+document.getElementById("demo").innerHTML = txt;
+
+function arrayloop(value, index, array) {
+  txt += value + "<br>"; 
+}
+
+</script>
+
+<script>    
+    const numbers2 = [1, 2, 3, 4, 5, 88];
+    const newarray = numbers2.flatMap((x => [x, x * 10]));
+    document.getElementById("flatmap").innerHTML = newarray;
+</script>
+
+
+
+</body>
+</html>

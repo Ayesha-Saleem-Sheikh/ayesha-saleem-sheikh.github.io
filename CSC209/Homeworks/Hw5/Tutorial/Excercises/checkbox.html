@@ -1,0 +1,34 @@
+<html>
+<head>
+<title> checkbox </title>
+</head>
+<body>
+<h1 style= text-align:center;> CheckBox </h1>
+
+Checkbox : <input type="checkbox" id="myCheck">
+
+<p> Check the box!</p>
+
+<button onclick="myFunction()">Check it!</button>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myCheck");
+  x.checked = true;
+}
+</script>
+
+<h3> Make a checkbox </h3>
+
+<button onclick="makeCheck()"> Create a check box </button>
+
+<script>
+function makeCheck() {
+  var x = document.createElement("INPUT");
+  x.setAttribute("type", "checkbox");
+  document.body.appendChild(x);
+}
+</script>
+<body>
+
+</html>

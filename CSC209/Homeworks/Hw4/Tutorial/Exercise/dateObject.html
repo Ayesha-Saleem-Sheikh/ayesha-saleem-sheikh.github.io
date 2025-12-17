@@ -1,0 +1,39 @@
+<html>
+<head>
+<title> Date Object </title>
+</head>
+<body>
+<h1 style= text-align:center;> Date Object </h1>
+	
+<input type="date" id="myDate" value="2025-09-26">
+
+<button onclick="myFunction()">Try it</button>
+<br>
+<p id="demo"></p>
+
+
+
+<script>
+function myFunction() {
+  let x = document.getElementById("myDate").value;
+  document.getElementById("demo").innerHTML = x;
+}
+</script>
+
+
+
+<h3> Create a date field</h3>
+
+<button onclick="myFunction()">DATE</button>
+
+<script>
+function myFunction() {
+  const x = document.createElement("INPUT");
+  x.setAttribute("type", "date");
+  x.setAttribute("value", "2025-09-12");
+  document.body.appendChild(x);
+}
+</script>
+</body>
+
+</html>

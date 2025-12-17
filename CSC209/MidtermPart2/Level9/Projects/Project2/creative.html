@@ -1,0 +1,77 @@
+<html>
+<head>
+    <title>Creative </title>
+    <link rel="stylesheet" href="css/stylesheet.css">
+</head>
+<body>
+    <h1 style=text-align:center>Creative</h1>
+    <br>
+    <br>
+    <br>
+    <aside>
+   <div id ="spacebox">
+    <img id = "astonaut" src="Image/astonaut.png"  class="sticker top-left">
+    <img id = "alien"  src="Image/alien.png" class="sticker top-right">
+    <img id = "rocket" src="Image/rocket.png"  class="sticker bottom-left">
+    <img  id ="asteroid" src= "Image/asteroid.png"  class="sticker bottom-right">
+   </div>
+   </aside>
+    <nav>
+     <button onclick="moveBoxes()"> Anti- Gravity </button>
+
+      <label for="speed">Anti- Gravity  speed</label>
+       
+        <select id="Speed">
+            <option value=30>Slow</option>
+            <option value=20>Medium</option>
+            <option value=10>Fast</option>
+        </select>
+
+        <br>
+        <br>
+        
+    <button id="moveRocket" onclick="moveRocket()">Move Rocket</button>
+    <label for="RocketSpeed">Rocket speed</label>
+    <select id="RocketSpeed">
+        <option value="30">Slow</option>
+        <option value="20">Medium</option>
+        <option value="10">Fast</option>
+    </select>
+
+    <br><br>
+
+  
+    <button id="moveAstronaut" onclick="moveAstronaut()">Move Astronaut</button>
+    <label for="astoSpeed">Astronaut speed</label>
+    <select id="astoSpeed">
+        <option value="30">Slow</option>
+        <option value="20">Medium</option>
+        <option value="10">Fast</option>
+    </select>
+
+    <br><br>
+
+   
+    <button id="moveAsteroid" onclick="moveAsteroid()">Move Asteroid</button>
+    <label for="rockSpeed">Asteroid speed</label>
+    <select id="rockSpeed">
+        <option value="30">Slow</option>
+        <option value="20">Medium</option>
+        <option value="10">Fast</option>
+    </select>
+
+    <br>
+    <br>
+
+    <button id="moveAlien" onclick="moveAlien()">Move Alien</button>
+    <label for="alienSpeed">Alien speed</label>
+    <select id="alienSpeed">
+        <option value="30">Slow</option>
+        <option value="20">Medium</option>
+        <option value="10">Fast</option>
+    </select>
+
+    </nav>
+    <script src="js/animation.js"></script>
+</body>
+</html>

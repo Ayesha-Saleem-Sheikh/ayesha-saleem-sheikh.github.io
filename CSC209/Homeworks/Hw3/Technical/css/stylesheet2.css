@@ -1,0 +1,48 @@
+
+body{
+background-color:black;
+color:white;
+}
+header{
+text-align:center;
+}
+
+nav{
+	float:left;
+	width:50%;
+	height:30px;
+	background:"grey";
+	padding:20px;
+}
+
+aside{
+	float:right;
+	width:50%;
+	height:30px;
+	
+}
+
+
+section{
+	align-items: center;
+	table,th,td{
+		width: 30;
+		align-content: center;
+		border:1px solid black;
+		th{
+			background-color: yellow;
+			color:blue;
+
+	}
+		
+	}}
+
+		
+
+
+
+
+		
+
+
+

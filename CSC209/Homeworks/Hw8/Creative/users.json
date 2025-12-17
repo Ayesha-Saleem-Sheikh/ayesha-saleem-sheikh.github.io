@@ -1,0 +1,54 @@
+[
+    {
+        "username": "alice",
+        "password": "password",
+        "loggedtimes": 24,
+        "minuteslogged": [
+            12,
+            8,
+            19,
+            33,
+            22,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "position": "User3",
+        "house": "Gryffindor"
+    },
+    {
+        "username": "carol",
+        "password": "letmein",
+        "loggedtimes": 15,
+        "minuteslogged": [
+            16,
+            21,
+            38,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "position": "User1",
+        "house": "Ravenclaw"
+    },
+    {
+        "username": "erin",
+        "password": "0101",
+        "loggedtimes": 5,
+        "minuteslogged": [
+            27,
+            0,
+            0,
+            0
+        ],
+        "position": "User2",
+        "house": "Slytherin"
+    }
+]

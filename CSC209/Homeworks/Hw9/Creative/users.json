@@ -1,0 +1,65 @@
+[
+    {
+        "username": "alice",
+        "password": "password",
+        "loggedtimes": 29,
+        "minuteslogged": [
+            12,
+            8,
+            19,
+            33,
+            22,
+            0,
+            0
+        ],
+        "position": "user",
+        "house": "Ravenclaw"
+    },
+    {
+        "username": "carol",
+        "password": "letmein",
+        "loggedtimes": 20,
+        "minuteslogged": [
+            16,
+            21,
+            38,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "position": "User1",
+        "house": "Slytherin"
+    },
+    {
+        "username": "erin",
+        "password": "0101",
+        "loggedtimes": 10,
+        "minuteslogged": [
+            27,
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "position": "User2",
+        "house": "Gryffindor"
+    },
+    {
+        "username": "john",
+        "password": "hello23",
+        "loggedtimes": 28,
+        "minuteslogged": [
+            12,
+            8,
+            19,
+            33,
+            22,
+            0
+        ],
+        "position": "admin",
+        "house": "Hufflepuff"
+    }
+]

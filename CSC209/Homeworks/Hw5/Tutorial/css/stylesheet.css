@@ -1,0 +1,11 @@
+body { 
+        
+        align-items: center;
+        font-family: 'Times New Roman', Times, serif;
+        background-color: #79baec;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding: 10px;
+    }

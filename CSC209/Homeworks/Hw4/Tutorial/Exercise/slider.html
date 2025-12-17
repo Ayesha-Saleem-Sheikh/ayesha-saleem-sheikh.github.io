@@ -1,0 +1,25 @@
+<html>
+<head>
+<title> Range </title>
+</head>
+<body>
+
+<h1 style=text-align:center;> Slider </h1>
+<input type="range" id="myRange" value="0">
+
+<p> move the slider! </p>
+
+<button onclick="myFunction()">Get Slider Value: </button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myRange").value;
+  document.getElementById("demo").innerHTML = x;
+}
+</script>
+	
+</body>
+
+</html>

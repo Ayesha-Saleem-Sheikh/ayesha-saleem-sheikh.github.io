@@ -1,0 +1,44 @@
+<html>
+<head>
+<title> canvasShapes </title>
+</head>
+<body>
+
+
+<h1 style= text-align:center;> Canvas Shapes </h1>
+<canvas id="myCanvas" width="200" height="125" style="border:1px solid #000000;">
+Sorry, your browser does not support canvas.
+</canvas>
+<script>
+const canvas = document.getElementById("myCanvas");
+const ctx = canvas.getContext("2d");
+ctx.beginPath();
+ctx.moveTo(20,20);
+ctx.lineTo(100,20);
+ctx.lineTo(175,100);
+ctx.lineTo(20,100);
+ctx.lineTo(20,20);
+ctx.stroke();
+
+</script>
+
+<br>
+
+<br>
+<canvas id="triangle" width="200" height="125" style="border:1px solid #000000;">
+Sorry, your browser does not support canvas.
+<script>
+const triangle = document.getElementById("triangle");
+const ft = triangle.getContext("2d");
+
+ft.beginPath();
+ft.moveTo(100,20);
+ft.lineTo(180,100);
+ft.lineTo(20,100);
+ft.lineTo(100,20);
+ft.strokeStyle = "red";
+ft.stroke();
+</script>
+
+</body>
+</html>

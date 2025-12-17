@@ -1,0 +1,62 @@
+[
+    {
+        "username": "changedname",
+        "quiz_index": "wand",
+        "answers": [
+            "b",
+            "a",
+            "a"
+        ],
+        "result": "Elder Wand\""
+    },
+    {
+        "username": "new",
+        "quiz_index": "house",
+        "answers": [
+            "a",
+            "b",
+            "b"
+        ],
+        "result": "slytherin"
+    },
+    {
+        "username": "new",
+        "quiz_index": "patronus",
+        "answers": [
+            "c",
+            "c",
+            "a"
+        ],
+        "result": "chipmunk"
+    },
+    {
+        "username": "new",
+        "quiz_index": "wand",
+        "answers": [
+            "b",
+            "d",
+            "c"
+        ],
+        "result": "Viola Wand"
+    },
+    {
+        "username": "changedname",
+        "quiz_index": "house",
+        "answers": [
+            "c",
+            "a",
+            "b"
+        ],
+        "result": "Hufflepuff"
+    },
+    {
+        "username": "changedname",
+        "quiz_index": "wand",
+        "answers": [
+            "d",
+            "b",
+            "a"
+        ],
+        "result": "Elder Wand\""
+    }
+]

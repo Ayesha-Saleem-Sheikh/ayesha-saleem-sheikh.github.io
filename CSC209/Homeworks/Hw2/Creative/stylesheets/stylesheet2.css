@@ -1,0 +1,30 @@
+body{
+	  background-image: url("../image/mclaren.jpg");
+	  background-repeat: no-repeat;
+	  background-size:cover;
+	}
+
+header{
+text-align:center;
+}
+
+section{
+	table,th,td{
+		border:1px solid black;
+		margin-left: auto;
+		margin-right: auto;
+		
+
+		th{
+			background-color: red;
+			color:white;
+			align:center;
+
+	}
+	
+	aside{
+		float:right;
+		width:25%;
+		height:300px;
+	
+	}
